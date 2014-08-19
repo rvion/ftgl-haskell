@@ -1,4 +1,4 @@
-{-# INCLUDE <FTGL/ftgl.h> #-}
+--{-# INCLUDE <FTGL/ftgl.h> #-}
 {-# LANGUAGE ForeignFunctionInterface #-}
 {-# OPTIONS_GHC -O2 -fglasgow-exts #-}
 -- | * Author: Jefferson Heard (jefferson.r.heard at gmail.com)
