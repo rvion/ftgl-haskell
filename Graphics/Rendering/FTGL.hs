@@ -1,4 +1,4 @@
---{-# INCLUDE <FTGL/ftgl.h> #-}
+-- {-# INCLUDE <FTGL/ftgl.h> #-}
 {-# LANGUAGE ForeignFunctionInterface #-}
 {-# OPTIONS_GHC -O2 -fglasgow-exts #-}
 -- | * Author: Jefferson Heard (jefferson.r.heard at gmail.com)
@@ -26,7 +26,9 @@
 module Graphics.Rendering.FTGL 
 where
 
-import Foreign (unsafePerformIO)
+-- import Foreign (unsafePerformIO)
+import System.IO.Unsafe(unsafePerformIO)
+
 import Foreign.C
 import Foreign.Ptr
 import Foreign.Marshal.Alloc
